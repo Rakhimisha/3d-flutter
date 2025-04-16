@@ -15,12 +15,12 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Material App',
+      title: 'Misha infotech App',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Material App Bar'),
+          title: const Text('Misha infotech App'),
         ),
-        body: const Home(),
+      body: const Home(),
       ),
     );
   }
@@ -32,6 +32,7 @@ class Home extends StatefulWidget {
   @override
   State<Home> createState() => _HomeState();
 }
+
 
 class _HomeState extends State<Home> {
   @override
